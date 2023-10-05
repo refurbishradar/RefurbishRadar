@@ -7,6 +7,7 @@
 */
 (function() {
   "use strict";
+  
 
   /**
    * Easy selector helper function
@@ -33,6 +34,7 @@
       }
     }
   }
+  
 
   /**
    * Easy on scroll event listener 
@@ -60,6 +62,8 @@
   }
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
+
+  
 
   /**
    * Scrolls to an element with header offset
@@ -133,6 +137,7 @@
       this.nextElementSibling.classList.toggle('dropdown-active')
     }
   }, true)
+
 
   /**
    * Scrool with ofset on links with a class name .scrollto
@@ -258,5 +263,8 @@
    */
   new PureCounter();
 
+  
+
+  
   
 })()
